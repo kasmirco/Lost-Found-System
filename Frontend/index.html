@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lost & Found</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="/IMG/og-logo.png" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="container">
+    <div class="nav-wrapper">
+
+      <!-- Logo Section -->
+      <div class="logo-container">
+        <div class="logo-box">
+          <div class="items"></div>
+        </div>
+        <div class="logo-label">
+          <div class="logo-title">
+            <img src="/IMG/og-logo.png" alt="Logo" />
+            <div>
+              <h1>Lost &amp; Found</h1>
+              <p>Discover. Connect. Reclaim.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation + Login -->
+      <div class="menu-wrapper">
+
+        <!-- Mobile Menu Toggle -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <img src="/IMG/menu.png" alt="Menu Icon" />
+        </label>
+
+        <!-- Navigation Links -->
+        <nav class="nav-links">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="lost.html">Lost</a></li>
+            <li><a href="report-lost.html">Report Lost</a></li>
+            <li><a href="found.html">Found</a></li>
+            <li><a href="report-found.html">Report Found</a></li>
+            <li><a href="profile.html">Profile</a></li>
+          </ul>
+        </nav>
+
+        <!-- Login Button -->
+<div id="login-container">
+  <a href="login.html" class="login-link" id="auth-link">
+    <button class="login-button" id="auth-button">Log In</button>
+  </a>
+</div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <div class="aurora-background">
+      <img src="/IMG/aurora.png" alt="Aurora Background" class="animated-aurora" />
+    </div>
+
+    <div class="main-container container">
+      <section class="text-section">
+        <h1 class="split-text">
+          <span class="split-inner">Find &amp; Recover</span> <span class="highlight">With Ease</span>
+        </h1>
+        <p>
+          If you’ve lost something on campus or found something that isn’t yours, we’re here to help. 
+          FEU ReturnHub makes it easy to report and reconnect with the things and people that matter.
+        </p>
+        <div class="btn-group">
+          <button class="btn found-btn" onclick="window.location.href='found.html'">
+            <span>Found</span>
+          </button>
+          <button class="btn lost-btn" onclick="window.location.href='lost.html'">
+            <span>Lost</span>
+          </button>
+        </div>
+      </section>
+
+      <aside class="video-section">
+        <video 
+          src="/IMG/video.mp4" 
+          autoplay 
+          muted 
+          loop 
+          playsinline 
+          disablepictureinpicture 
+          controlslist="nodownload nofullscreen noremoteplayback">
+        </video>
+      </aside>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+  </main>
+
+  <!-- ABOUT US -->
+  <section class="aboutus-profile-container">
+    <h1>The Powerhouse of Innovation <br> Meet Our Development Team:</h1>
+
+    <div class="team-pyramid">
+      <div class="profile-card center">
+        <img src="/IMG/JKC.JPG" alt="Costinar" />
+        <span class="number">01</span>
+        <h2>CEO & Lead Developer</h2>
+        <p>
+          John is the visionary and architect behind the project, responsible for conceptualizing, 
+          developing, and executing the platform’s core features and infrastructure.
+        </p>
+      </div>
+
+      <div class="profile-card left">
+        <img src="/IMG/joIMG.JPG" alt="Jose Cords III" />
+        <span class="number">02</span>
+        <h2>Chief Technology Officer</h2>
+        <p>
+          Jose leads the company’s technological strategy, overseeing development and deployment 
+          of cutting-edge solutions aligned with business objectives.
+        </p>
+      </div>
+
+      <div class="profile-card right">
+        <img src="/IMG/tomasIMG.JPG" alt="Eduard" />
+        <span class="number">03</span>
+        <h2>Chief Information Officer</h2>
+        <p>
+          Eduard manages the company’s information systems and infrastructure, driving digital 
+          transformation and ensuring robust, secure IT operations.
+        </p>
+      </div>
+    </div>
+
+    <div class="mission-vision">
+      <div class="box">
+        <h2>Mission</h2>
+        <p>
+          Our mission is to create a reliable and efficient platform for reuniting lost items 
+          with their rightful owners. We aim to foster a supportive community where users can 
+          easily report, search, and recover lost belongings, enhancing trust and cooperation 
+          among individuals.
+        </p>
+      </div>
+      <div class="box">
+        <h2>Vision</h2>
+        <p>
+          Our Vision is to create a Lorem mloerem lorem lorem asa lorems. We aim to foster a 
+          supportive community where users can easily report, search, and recover lost belongings, 
+          enhancing trust and cooperation among individuals.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col logo-footer">
+        <div class="footer-logo-box">
+          <div class="footer-logo-items">
+            <div class="box"></div>
+            <div class="papers">
+              <div></div><div></div><div></div>
+            </div>
+          </div>
+        </div>
+        <img src="/IMG/og-logo.png" alt="Logo" class="footer-logo-img" />
+      </div>
+
+      <div class="footer-col">
+        <strong><big>Quick Links</big></strong>
+        <ul>
+          <li><a href="#">Lost</a></li>
+          <li><a href="report-lost.html">Report Lost</a></li>
+          <li><a href="found.html">Found</a></li>
+          <li><a href="report-found.html">Report Found</a></li>
+          <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-copyright-center">
+        <p><b>© Copyright 2025 Lost and Found<br>All Right Reserved</b></p>
+      </div>
+
+      <div class="footer-col">
+        <strong><big>Platforms</big></strong>
+        <ul>
+          <li><a href="https://www.facebook.com/johnkenneth.costinar.3">Facebook</a></li>
+          <li><a href="https://www.instagram.com/kasmir.co/">Instagram</a></li>
+          <li><a href="https://ph.pinterest.com/johnkennethcostinar/_profile/">Pinterest</a></li>
+          <li><a href="https://www.youtube.com/@kasmirgaming3790">YouTube</a></li>
+          <li><a href="https://www.tiktok.com/@user306981014?lang=en">Tiktok</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-contact">
+        <strong><big>Contact</big></strong>
+        <p><strong>Tel :</strong> +63 9000000000</p>
+        <p><strong>Email :</strong> LostandFound@gmail.com</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/john-kenneth-costinar-517a89371/" aria-label="linkedin">
+            <img src="/IMG/Linkedin_Shiny_Icon.svg.png" alt="linkedin" />
+          </a>
+          <a href="https://x.com/KasmirCo" aria-label="X">
+            <img src="/IMG/X.png" alt="X" />
+          </a>
+          <a href="https://t.me/KasmirCo" aria-label="telegram">
+            <img src="/IMG/tele.png" alt="telegram" />
+          </a>
+          <a href="https://github.com/kasmirco" aria-label="GitHub">
+            <img src="/IMG/github-icon.png" alt="GitHub" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/gh/PavelDoGreat/WebGL-Fluid-Simulation@master/script.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const splitContainer = document.querySelector(".split-inner");
+      const text = splitContainer?.textContent || "";
+      const splitHTML = text.split("").map(char => `<span>${char === " " ? "&nbsp;" : char}</span>`).join("");
+      if (splitContainer) splitContainer.innerHTML = splitHTML;
+
+      const chars = splitContainer?.querySelectorAll("span") || [];
+
+      gsap.set(chars, { opacity: 0, y: 40 });
+      gsap.to(chars, {
+        scrollTrigger: {
+          trigger: splitContainer,
+          start: "top 80%",
+          toggleActions: "play none none none"
+        },
+        opacity: 1,
+        y: 0,
+        ease: "power3.out",
+        duration: 0.6,
+        stagger: 0.035
+      });
+
+      gsap.fromTo(".aboutus-profile-container", { opacity: 0, y: 80 }, {
+        opacity: 1,
+        y: 0,
+        duration: 1.2,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".aboutus-profile-container",
+          start: "top 85%",
+          end: "bottom 20%",
+          toggleActions: "play reverse play reverse"
+        }
+      });
+
+      gsap.fromTo(".aboutus-profile-container .profile", { opacity: 0, y: 50 }, {
+        opacity: 1,
+        y: 0,
+        duration: 0.7,
+        stagger: 0.3,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: ".aboutus-profile-container",
+          start: "top 85%",
+          end: "bottom 20%",
+          toggleActions: "play reverse play reverse"
+        }
+      });
+
+      gsap.fromTo(".video-section video", { scale: 0.9, opacity: 0, y: 50 }, {
+        scale: 1,
+        opacity: 1,
+        y: 0,
+        duration: 1.2,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".video-section",
+          start: "top 85%",
+          end: "bottom 20%",
+          toggleActions: "play reverse play reverse"
+        }
+      });
+
+      // ACTIVE PAGE HIGHLIGHT
+      const navLinks = document.querySelectorAll(".nav-links ul li a");
+      const currentPath = window.location.pathname.split("/").pop();
+
+      navLinks.forEach(link => {
+        const linkPath = link.getAttribute("href");
+        if (linkPath === currentPath || (linkPath === "index.html" && currentPath === "")) {
+          link.classList.add("active");
+        } else {
+          link.classList.remove("active");
+        }
+      });
+    });
+
+    const aboutUs = document.querySelector('.aboutus-profile-container');
+    function isOverAboutUs(mouseY) {
+      const rect = aboutUs.getBoundingClientRect();
+      return mouseY >= rect.top && mouseY <= rect.bottom;
+    }
+
+    window.addEventListener('mousemove', (e) => {
+      if (isOverAboutUs(e.clientY)) return;
+      multipleSplats(e.clientX / window.innerWidth, e.clientY / window.innerHeight);
+    });
+
+    function multipleSplats(x, y) {
+      const amount = 1;
+      for (let i = 0; i < amount; i++) {
+        const color = {
+          r: Math.random(),
+          g: 1,
+          b: Math.random()
+        };
+        const dx = (Math.random() - 0.5) * 500;
+        const dy = (Math.random() - 0.5) * 500;
+        splat(x * window.innerWidth, y * window.innerHeight, dx, dy, color);
+      }
+    }
+
+    // Handle Login/Logout Display Logic
+const authLink = document.getElementById("auth-link");
+const authButton = document.getElementById("auth-button");
+
+function updateAuthUI() {
+  const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+  if (isLoggedIn) {
+    authLink.setAttribute("href", "#");
+    authButton.textContent = "Log Out";
+    authLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      localStorage.setItem("isLoggedIn", "false");
+      window.location.href = "login.html";
+    });
+  } else {
+    authLink.setAttribute("href", "login.html");
+    authButton.textContent = "Log In";
+  }
+}
+
+updateAuthUI();
+
+  // Include the login btn inside of the burger icon 
+  
+document.addEventListener("DOMContentLoaded", () => {
+  const loginContainer = document.getElementById("login-container");
+  const loginLink = document.getElementById("auth-link");
+  const navList = document.querySelector(".nav-links ul");
+
+  function moveLoginToMenu() {
+    if (window.innerWidth <= 768) {
+      // Move login button inside nav list if not already moved
+      if (!navList.contains(loginLink)) {
+        const loginItem = document.createElement("li");
+        loginItem.id = "login-menu-item";
+        loginItem.appendChild(loginLink);
+        navList.appendChild(loginItem);
+      }
+    } else {
+      // Move it back to original container if screen is wide
+      const existingItem = document.getElementById("login-menu-item");
+      if (existingItem) {
+        loginContainer.appendChild(loginLink);
+        existingItem.remove();
+      }
+    }
+  }
+
+  // Run on page load and resize
+  moveLoginToMenu();
+  window.addEventListener("resize", moveLoginToMenu);
+});
+
+  </script>
+
+</body>
+</html>
