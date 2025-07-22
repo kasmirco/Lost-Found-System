@@ -65,7 +65,7 @@ Lost-Found-System/
 ├── js/                   # JavaScript files
 │   └── script.js         # Client-side logic
 │
-├── php/                  # PHP scripts
+├── js/                  # JS scripts
 │   ├── report.php        # Form submission handling
 │   ├── notify.php        # Notifications
 │   └── track.php         # Tracking logic
