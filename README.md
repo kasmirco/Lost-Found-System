@@ -1,6 +1,6 @@
 <!-- Logo -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kasmirco/Lost-Found-System/main/files/og-logo.png" width="120" alt="Lost & Found Logo" />
+  <img src="https://raw.githubusercontent.com/kasmirco/Lost-Found-System/main/og-logo.png" width="120" alt="Lost & Found Logo" />
 </p>
 
 <h1 align="center">🎒 FEU Lost & Found System</h1>
